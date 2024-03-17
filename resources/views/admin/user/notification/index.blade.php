@@ -1,0 +1,1 @@
+@livewire('admin.user.notification.index', ['user' => $user], key('user-notification-'.$user->id))

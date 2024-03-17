@@ -1,0 +1,61 @@
+.overflow{
+    height: 400px;
+    overflow: scroll;
+    margin-top: 30px;
+}
+-webkit-scrollbar:vertical {
+    width:10px;
+}
+.form-control {
+    box-shadow: 0 .1rem 1rem .25rem rgba(0,0,0,.05)!important;
+}
+.note-toolbar {
+    background: #ffffff!important;
+}
+.note-editing-area {
+    background-color: white;
+}
+.card.card-access-payments.shadow.bg-body.rounded {
+    min-height: 320px;
+    max-height: 320px;
+}
+.btn-product-variation {
+    padding: calc(-0.45rem + 1px) calc(1.25rem + 1px);
+    margin-bottom: 10px;
+}
+button.btn.btn-product-variation.btn-primary {
+    padding: calc(-0.25rem + 1px) calc(1.5rem + 1px)!important;
+}
+button.disabled{
+    cursor: not-allowed;
+}
+.product-color-swatch .color {
+    display: block;
+    text-align: center;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 50%;
+    border: none;
+    margin-right: 0;
+}
+.product-color-swatch .color::before {
+    content: "";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: #fff;
+    line-height: 2.2;
+}
+.product-color-swatch .color.active::before {
+    content: "\f00c";
+}
+button.btn.btn-product-variation.color {
+    padding: calc(0.75rem + -7px) calc(0.5rem + 0px)!important;
+}
+.table.table-row-dashed tr {
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: #c4b4b4;
+}

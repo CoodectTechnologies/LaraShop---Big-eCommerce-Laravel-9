@@ -1,0 +1,3 @@
+<div>
+    {!! $tagAnalytic->footer !!}
+</div>
