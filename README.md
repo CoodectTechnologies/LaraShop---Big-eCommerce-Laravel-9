@@ -210,7 +210,7 @@ _Que cosas necesitas para instalar el software y como instalarlas_
 _1.- Deberás de instalar las dependencias de laravel con el siguiente comando_
 
 ```
-git clone https://github.com/CoodectTechnologies/administrator.git
+git clone https://github.com/CoodectTechnologies/LaraShop---Big-eCommerce-Laravel-9.git
 
 composer install
 
@@ -239,7 +239,7 @@ php artisan storage:link
 ```
 
 ### Opción (B): Instalación con  docker compose
-- `git clone https://github.com/CoodectTechnologies/administrator.git && cd administrator`
+- `git clone https://github.com/CoodectTechnologies/LaraShop---Big-eCommerce-Laravel-9.git && cd laraShop---big-ecommerce-laravel-9`
 - `cp .env.example .env`
 - `docker compose up -d --build` ( despues configurar credenciales de email)
 - `docker compose exec app sh -s 'composer install'`
@@ -257,10 +257,16 @@ Contraseña admin: coodect2020
 _1.- Deberás de instalar las dependencias de laravel con el siguiente comando_
 
 ```
-git clone https://github.com/CoodectTechnologies/administrator.git
+git clone https://github.com/CoodectTechnologies/LaraShop---Big-eCommerce-Laravel-9.git
 
+```
+
+```
+cd laraShop---big-ecommerce-laravel-9
+```
+
+```
 composer install
-
 ```
 
 _2.- Una vez que se terminen de descargar el proyecto y las dependencias_
