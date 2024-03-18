@@ -353,3 +353,10 @@ _2.- Deberás de obtener tus credenciales y remplazar las variables de GOOGLE_CL
 ![Preview](/public/assets/readme/c14.jpeg)
 ![Preview](/public/assets/readme/c15.jpeg)
 ![Preview](/public/assets/readme/c16.jpeg)
+
+
+## Donaciones
+
+Puedes apoyar este proyecto mediante una donación a través de PayPal:
+
+[![Donar con PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=PFH7YEE7C6KQ6)
