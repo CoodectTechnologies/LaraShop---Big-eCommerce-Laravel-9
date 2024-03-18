@@ -109,7 +109,6 @@ class CheckoutController extends Controller
     }
     public static function sendEmail($order){
         try{
-            $order->shippingAddress->email = 'rigoberto.villa42@gmail.com';
             Mail::to($order->shippingAddress->email)->send(new OrderCreate($order));
             $order->send_email = true;
             $order->update();
