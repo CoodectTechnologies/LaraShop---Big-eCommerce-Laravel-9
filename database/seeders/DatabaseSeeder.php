@@ -20,15 +20,16 @@ class DatabaseSeeder extends Seeder
         $this->call(RoleSeeder::class);
         // $this->call(UserSeeder::class);
         $this->call(ModuleWebSeeder::class);
+        $this->call(CurrencySeeder::class);
 
         //Web
         $this->call(AboutSeeder::class);
-        $this->call(VideoSeeder::class);
+        // $this->call(VideoSeeder::class);
         $this->call(BlogTagSeeder::class);
         $this->call(BlogCategorySeeder::class);
         $this->call(BlogPostSeeder::class);
-        $this->call(ServiceSeeder::class);
-        $this->call(PortfolioSeeder::class);
+        // $this->call(ServiceSeeder::class);
+        // $this->call(PortfolioSeeder::class);
         $this->call(PartnerSeeder::class);
         // $this->call(TestimonySeeder::class);
         // $this->call(SubscriberSeeder::class);
@@ -37,7 +38,6 @@ class DatabaseSeeder extends Seeder
         $this->call(BannerSeeder::class);
         $this->call(CountrySeeder::class);
         $this->call(StateSeeder::class);
-        $this->call(CurrencySeeder::class);
         $this->call(ProductCategorySeeder::class);
         $this->call(ProductGenderSeeder::class);
         $this->call(ProductSeeder::class);

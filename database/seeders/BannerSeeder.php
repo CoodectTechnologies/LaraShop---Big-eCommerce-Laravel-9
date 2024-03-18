@@ -17,31 +17,6 @@ class BannerSeeder extends Seeder
     {
         $banner = Banner::create([
             'order' => 1,
-            'module_web_id' => 1,
-            'subtitle' => [config('translatable.fallback') => 'Ofrecemos soluciones a la medida para todo tipo de empresas o negocios, con servicios de diseño web, desarrollo web, y marketing digital.'],
-            'title' => [config('translatable.fallback') => 'DIGITALIZATE'],
-            'type' => 'Video',
-            'video' => mediaManagerSeeder('assets/web/video/banner.mp4', 'public/banner/banner.mp4')
-        ]);
-        $banner = Banner::create([
-            'order' => 2,
-            'module_web_id' => 1,
-            'subtitle' => [config('translatable.fallback') => 'Desarrollamos el diseño gráfico desde cero o le damos un toque fresco y moderno a la identidad de tu marca.'],
-            'title' => [config('translatable.fallback') => 'DISEÑO GRÁFICO'],
-            'type' => 'Video',
-            'video' => mediaManagerSeeder('assets/web/video/banner2.mp4', 'public/banner/banner2.mp4')
-        ]);
-        $banner = Banner::create([
-            'order' => 2,
-            'module_web_id' => 1,
-            'subtitle' => [config('translatable.fallback') => 'Hacemos campañas digitales efectivas a través de marketing digital'],
-            'title' => [config('translatable.fallback') => 'REDES SOCIALES'],
-            'type' => 'Video',
-            'video' => mediaManagerSeeder('assets/web/video/banner3.mp4', 'public/banner/banner3.mp4')
-        ]);
-
-        $banner = Banner::create([
-            'order' => 1,
             'module_web_id' => 10,
         ]);
         $banner->image()->create([

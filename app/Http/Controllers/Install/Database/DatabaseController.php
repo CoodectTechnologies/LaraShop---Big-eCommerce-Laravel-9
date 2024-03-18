@@ -6,6 +6,7 @@ use Jackiedo\DotenvEditor\Facades\DotenvEditor;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
 use App\Http\Controllers\Controller;
+use Database\Seeders\CurrencySeeder;
 use Database\Seeders\ModuleWebSeeder;
 use Database\Seeders\PermissionSeeder;
 use Database\Seeders\RoleSeeder;
@@ -66,6 +67,9 @@ class DatabaseController extends Controller
                 $seeder->run();
 
                 $seeder = new ModuleWebSeeder();
+                $seeder->run();
+
+                $seeder = new CurrencySeeder();
                 $seeder->run();
             endif;
             return Redirect::route('install.email.index');

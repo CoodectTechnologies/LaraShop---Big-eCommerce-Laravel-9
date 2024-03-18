@@ -33,7 +33,7 @@ class BlogPostSeeder extends Seeder
             'meta_description' => [config('translatable.fallback') => '¿Ya conoces la importancia que tiene un logotipo en una marca?'],
             'meta_keywords' => [config('translatable.fallback') => 'Logotipos, Clases de logotipos, Importancia del logotipo'],
         ]);
-        $blog->image()->create(['main' => 1, 'url' => mediaManagerSeeder('assets/web/img/blog/clases-de-logotipos.webp', 'public/blog/post/clases-de-logotipos.webp')]);
+        $blog->image()->create(['main' => 1, 'url' => mediaManagerSeeder('assets/ecommerce/images/blog/clases-de-logotipos.webp', 'public/blog/post/clases-de-logotipos.webp')]);
 
         $blog = BlogPost::create([
             'user_id' => null,
@@ -45,6 +45,6 @@ class BlogPostSeeder extends Seeder
             'meta_description' => [config('translatable.fallback') => '¿Sabes cómo utilizar los diferentes sitios web que existen? ¿No? ¡Quédate a descubrirlo y aprenderás a aprovechar sus beneficios!'],
             'meta_keywords' => [config('translatable.fallback') => 'Sitios web, Tipos de sitio web, Beneficios de sitios web'],
         ]);
-        $blog->image()->create(['main' => 1, 'url' => mediaManagerSeeder('assets/web/img/blog/tipos-de-sitio-web-para-tu-negocio.webp', 'public/blog/post/tipos-de-sitio-web-para-tu-negocio.webp')]);
+        $blog->image()->create(['main' => 1, 'url' => mediaManagerSeeder('assets/ecommerce/images/blog/tipos-de-sitio-web-para-tu-negocio.webp', 'public/blog/post/tipos-de-sitio-web-para-tu-negocio.webp')]);
     }
 }
