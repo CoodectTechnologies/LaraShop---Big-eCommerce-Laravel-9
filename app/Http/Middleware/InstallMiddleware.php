@@ -34,7 +34,7 @@ class InstallMiddleware
             'MAIL_ENCRYPTION'
         ];
         foreach($envRequired as $env):
-            if(!env($env)):
+            if(empty(env($env))):
                 return Redirect::route('install.general.index');
             endif;
         endforeach;
